@@ -11,27 +11,25 @@
         
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse; /*para tirar os espaços entre as celulas*/
-            border: 4px solid red;
             
-        }
-
-        tr{
-            background-color: rgba(128, 128, 128, 0.418);
-        }
-
-        tr.linha{
-            background-color: aqua;
+            
         }
 
         td{
             border: 1px solid black;
             padding: 8px;
+            text-align: center;/*Alinhamento horizontal*/
+            vertical-align: middle;/* top middle bottom* alinhamento vertical*/
         }
 
-        td.dado{
-            background-color: bisque;
+        .numero{
+            text-align: right;
         }
+       
+
+      
     </style>
 </head>
 <body>
@@ -49,9 +47,9 @@
             <td>B1</td>
             <td>C1</td>
         </tr>
-        <tr class="linha"><!--Segunda linha-->
-            <td>A2</td>
-            <td class="dado">B2</td>
+        <tr><!--Segunda linha-->
+            <td class="numero">A2</td>
+            <td class="numero">B2</td>
             <td>C2</td>
         </tr>
         <tr><!--Terceira linha-->
