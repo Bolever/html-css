@@ -1,0 +1,9 @@
+@charset 'UTF-8';
+
+/* Configura tela em pé */
+
+body{
+    background-image: url(../imagem/cev-portrait.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
