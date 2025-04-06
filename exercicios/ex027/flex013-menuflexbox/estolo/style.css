@@ -26,13 +26,12 @@ header{
 }
 
 header > h1{
-    border: 1px dashed black;
-    f
+   /* border: 1px dashed black;*/
     flex: 0 0 200px;
 }
 
 header > nav{
-    border: 1px dashed black;
+  /*  border: 1px dashed black; */
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
@@ -62,3 +61,4 @@ main{
     border-radius: 15px;
     box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.39);
 }
+
